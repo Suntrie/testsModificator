@@ -1,0 +1,88 @@
+* Starting client
+* Connecting to master process on port 12675
+* Analyzing classpath: 
+  - /home/suntrie/IdeaProjects/testsModificator/target/classes
+  - /home/suntrie/.m2/repository/com/github/javaparser/javaparser-symbol-solver-core/3.14.5/javaparser-symbol-solver-core-3.14.5.jar
+  - /home/suntrie/.m2/repository/com/github/javaparser/javaparser-symbol-solver-logic/3.14.5/javaparser-symbol-solver-logic-3.14.5.jar
+  - /home/suntrie/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar
+  - /home/suntrie/.m2/repository/com/github/javaparser/javaparser-symbol-solver-model/3.14.5/javaparser-symbol-solver-model-3.14.5.jar
+  - /home/suntrie/.m2/repository/com/github/javaparser/javaparser-core/3.14.5/javaparser-core-3.14.5.jar
+  - /home/suntrie/.m2/repository/com/google/guava/guava/27.0-jre/guava-27.0-jre.jar
+  - /home/suntrie/.m2/repository/com/google/guava/failureaccess/1.0/failureaccess-1.0.jar
+  - /home/suntrie/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+  - /home/suntrie/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/suntrie/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/suntrie/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+  - /home/suntrie/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/suntrie/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+  - /home/suntrie/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/suntrie/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  - /home/suntrie/.m2/repository/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.jar
+  - /home/suntrie/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.repoMiner.Main
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 22:12:16.396 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/suntrie/IdeaProjects/testsModificator/.evosuite/evosuite-seeds/com.repoMiner.Main.seed
+* Loaded 0 tests from /home/suntrie/IdeaProjects/testsModificator/.evosuite/evosuite-seeds/com.repoMiner.Main.seed
+* Total number of test goals: 
+  - Line 3
+  - Branch 2
+  - Exception 0
+  - MutationFactory 2
+  - Output 0
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 2
+* Using seed 1561576334431
+* Starting evolution
+* Search finished after 31s and 941 generations, 164355 statements, best individual has fitness: 1.7
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Generated 5 tests with total length 16
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'Main_ESTest' to /home/suntrie/IdeaProjects/testsModificator/.evosuite/tmp_2019_06_26_22_10_25/tests
+* Done!
+
